@@ -450,7 +450,7 @@ ul {
 
 	.section-ticket__subtitle {
 		font-size: 20px;
-		max-width: 245px;
+		max-width: 244px;
 		padding: 0 5px 6px 0;
 		line-height: 23px;
 	}
@@ -495,7 +495,7 @@ ul {
 
 	.section-applycation-content-left__participation {
 		font-size: 10px;
-		max-width: 250px;
+		max-width: 249px;
 		margin: auto;
 	}
 
@@ -508,7 +508,7 @@ ul {
 
 	.section-applycation-content__applyfor {
 		margin: 135px 0 0 0;
-		padding: 11px 61px 10px 58px;
+		padding: 11px 64px 10px 60px;
 	}
 
 	.section-speaker {
@@ -596,7 +596,7 @@ ul {
 	}
 
 	.section-footer__content {
-		font-size: 8px;
+		font-size: 9px;
 		padding: 7px 0 54px 0;
 		margin: 0 auto;
 		width: 87%;
@@ -617,8 +617,8 @@ ul {
 	}
 
 	.section-footer-content-contacts__phone {
-		padding: 0;
-		width: 76px;
+		padding-right: 5px;
+		width: 72px;
 		line-height: 12px;
 	}
 
