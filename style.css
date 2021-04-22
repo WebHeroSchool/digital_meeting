@@ -92,9 +92,8 @@ header {
 }
 
 .section-ticket__subtitle {
-	font: 30px Roboto-Medium;
 	font: 500 30px/35px Roboto-Regular;
-	max-width: 621px;
+	width: 621px;
 	color: #585858;
 	padding: 0 7px 38px 0;
 	margin: 0 auto;
@@ -143,7 +142,6 @@ header {
 }
 
 .section-applycation-content__left {
-	max-width: 430px;
 	height: 100%;
 	padding: 92px 0 0 0;
 }
@@ -160,6 +158,7 @@ header {
 	font: 900 20px Roboto-Regular;
 	color: #FFF;
 	margin: 0;
+	width: 424px;
 }
 
 .section-applycation-content__image {
@@ -189,7 +188,7 @@ header {
 	font: 500 30px/35px Roboto-Regular;
 	color: #585858;
 	text-align: center;
-	max-width: 452px;
+	width: 452px;
 	margin: 0 auto;
 	padding-bottom: 79px;
 }
@@ -260,6 +259,102 @@ ul {
 	width: 52px;
 }
 
+@media (min-width: 1920px) {
+	.menu__item {
+		font-size: 30px;
+ 	}
+
+	.section-title {
+		margin-bottom: 530px; 
+	}
+
+	.section-title__title {
+		font-size: 74px;
+	}
+
+	.section-title__description {
+		font-size: 36px;
+		line-height: 45px;
+	}
+
+	.section-title__buy {
+		font-size: 32px;
+	}
+
+	.section-ticket__subtitle {
+		font-size: 40px;
+		width: 814px;
+		line-height: 53px;
+	}
+
+	.section-ticket__cost {
+		font-size: 40px;
+	}
+
+	.section-ticket__buy {
+		font-size: 30px;
+	}
+
+	.section-ticket__booking {
+		font-size: 30px;
+	}
+
+	.section-applycation-content__left {
+		padding-top: 115px;
+	}
+
+	.section-applycation-content-left__subtitle {
+		font-size: 35px;
+	}
+
+	.section-applycation-content-left__participation {
+		font-size: 24px;
+		width: 506px;
+	}
+
+	.section-applycation-content__applyfor {
+		margin-top: 165px;
+		font-size: 24px;
+	}
+
+	.section-speaker__subtitle {
+		font-size: 40px;
+		width: 598px;
+		line-height: 40px;
+	}
+
+	.section-speaker-speakers__image {
+		width: 378px;
+	}
+
+	.section-footer__content {
+		font-size: 25px;
+		/*padding-bottom: calc(60px + (145 - 60) * ((100vw - 768px) / (1439 - 768)));*/
+	} 
+
+	.section-footer-content-location__icon {
+		height: 35px;
+	}
+
+	.section-footer-content-location__locality {
+		margin-top: 22px;
+	}
+
+	.section-footer-content-contacts__phone {
+		width: 213px;
+		line-height: 38px;
+	}
+
+	.section-footer-content-contacts-link__whatsapp {
+		width: 62px;
+	}
+
+	.section-footer-content-contacts-link__telegram {
+		width: 62px;
+	}
+
+}
+
 @media (max-width: 1439px) {
 	header {
 		margin-top: calc(20px + (50 - 20) * ((100vw - 768px) / (1439 - 768)));
@@ -323,9 +418,10 @@ ul {
 	}
 
 	.section-footer__content {
-		font: 18px Roboto-Black;
+	/*	font: 900 18px Roboto-Regular;*/
 		padding-bottom: calc(60px + (145 - 60) * ((100vw - 768px) / (1439 - 768)));    
 	} 
+}
 
 @media (max-width: 767px) {
 	body {
@@ -518,7 +614,7 @@ ul {
 
 	.section-speaker__subtitle {
 		font-size: 20px;
-		max-width: 452px;
+		width: 199px;
 		margin: 0 auto;
 		padding-bottom: 27px;
 		line-height: 23px;
@@ -596,7 +692,7 @@ ul {
 	}
 
 	.section-footer__content {
-		font-size: 9px;
+		font-size: 8px;
 		padding: 7px 0 54px 0;
 		margin: 0 auto;
 		width: 87%;
@@ -618,7 +714,7 @@ ul {
 
 	.section-footer-content-contacts__phone {
 		padding-right: 5px;
-		width: 72px;
+		width: 71px;
 		line-height: 12px;
 	}
 
