@@ -20,7 +20,6 @@ header {
 
 .menu__item {
 	position: relative; 
-	font: 900 18px Roboto-Regular;
 	color: #FFF;
 	margin-right: 59px;
 	text-decoration: none;
@@ -56,7 +55,6 @@ header {
 }
 
 .section-title__title {
-	font: 900 40px Roboto-Regular;
 	word-spacing: 5px;
 	color: #FFF;
 	margin: 0;
@@ -64,7 +62,6 @@ header {
 }
 
 .section-title__description {
-	font: 900 20px/23px Roboto-Regular;
 	word-spacing: 1px;
 	color: #FFF;
 	margin: 0;
@@ -72,7 +69,6 @@ header {
 }
 
 .section-title__buy {
-	font: 900 20px Roboto-Regular;
 	color: #FFF;
 	margin: 0 14px 0 0;
 	padding: 16px 68px 16px 66px;
@@ -92,7 +88,6 @@ header {
 }
 
 .section-ticket__subtitle {
-	font: 500 30px/35px Roboto-Regular;
 	width: 621px;
 	color: #585858;
 	padding: 0 7px 38px 0;
@@ -100,7 +95,6 @@ header {
 }
 
 .section-ticket__cost {
-	font: 900 30px Roboto-Regular;
 	color: #263B83;
 	padding: 0 13px 48px 0;
 	text-align: center;
@@ -108,7 +102,6 @@ header {
 }
 
 .section-ticket__buy {
-	font: 900 20px Roboto-Regular;
 	padding: 16px 66px 15px 66px;
 	text-decoration: none;
 	background: #FFDA45;
@@ -120,7 +113,6 @@ header {
 }
 
 .section-ticket__booking {
-	font: 900 20px Roboto-Regular;
 	color: #585858;
 	display: block;
 	margin-top: 33px;
@@ -147,7 +139,6 @@ header {
 }
 
 .section-applycation-content-left__subtitle {
-	font: 900 30px Roboto-Regular;
 	margin-bottom: 20px;
 	color: #FFF;
 	margin: 0;
@@ -155,7 +146,6 @@ header {
 }
 
 .section-applycation-content-left__participation {
-	font: 900 20px Roboto-Regular;
 	color: #FFF;
 	margin: 0;
 	width: 424px;
@@ -167,10 +157,9 @@ header {
 }
 
 .section-applycation-content__applyfor {
-	font: 900 20px Roboto-Regular;
 	margin: 135px 0 0 0;
 	height: 0;
-	padding: 16px 33px 40px 29px;
+	padding: .8em 1.65em 2em 1.45em;
 	text-decoration: none;
 	background: #FFDA45;
 	color: #000;
@@ -185,7 +174,6 @@ header {
 }
 
 .section-speaker__subtitle {
-	font: 500 30px/35px Roboto-Regular;
 	color: #585858;
 	text-align: center;
 	width: 452px;
@@ -212,7 +200,6 @@ ul {
 }
 
 .section-footer__content {
-	font: 900 18px Roboto-Regular;
 	color: #E1E6E9;
 	justify-content: space-between;
 	display: flex;
@@ -241,7 +228,6 @@ ul {
 	padding: 0 19px 0 0;
 	margin: 0;
 	width: 155px;
-	line-height: 30px;
 }
 
 .section-footer-content-contacts-link__whatsapp {
@@ -260,77 +246,33 @@ ul {
 }
 
 @media (min-width: 1920px) {
-	.menu__item {
-		font-size: 30px;
- 	}
-
 	.section-title {
 		margin-bottom: 530px; 
 	}
 
-	.section-title__title {
-		font-size: 74px;
-	}
-
-	.section-title__description {
-		font-size: 36px;
-		line-height: 45px;
-	}
-
-	.section-title__buy {
-		font-size: 32px;
-	}
-
 	.section-ticket__subtitle {
-		font-size: 40px;
 		width: 814px;
-		line-height: 53px;
-	}
-
-	.section-ticket__cost {
-		font-size: 40px;
-	}
-
-	.section-ticket__buy {
-		font-size: 30px;
-	}
-
-	.section-ticket__booking {
-		font-size: 30px;
 	}
 
 	.section-applycation-content__left {
 		padding-top: 115px;
 	}
 
-	.section-applycation-content-left__subtitle {
-		font-size: 35px;
-	}
-
 	.section-applycation-content-left__participation {
-		font-size: 24px;
 		width: 506px;
 	}
 
 	.section-applycation-content__applyfor {
 		margin-top: 165px;
-		font-size: 24px;
 	}
 
 	.section-speaker__subtitle {
-		font-size: 40px;
 		width: 598px;
-		line-height: 40px;
 	}
 
 	.section-speaker-speakers__image {
 		width: 378px;
 	}
-
-	.section-footer__content {
-		font-size: 25px;
-		/*padding-bottom: calc(60px + (145 - 60) * ((100vw - 768px) / (1439 - 768)));*/
-	} 
 
 	.section-footer-content-location__icon {
 		height: 35px;
@@ -342,7 +284,6 @@ ul {
 
 	.section-footer-content-contacts__phone {
 		width: 213px;
-		line-height: 38px;
 	}
 
 	.section-footer-content-contacts-link__whatsapp {
@@ -363,34 +304,14 @@ ul {
 
 	.menu__item {
 		margin-right: calc(20px + (60 - 20) * ((100vw - 768px) / (1439 - 768)));
-		font-size: calc(12px + (18 - 12) * ((100vw - 768px) / (1439 - 768)));
  	}
 
 	.section-title {
 		margin-bottom: calc(125px + (436 - 125) * ((100vw - 768px) / (1439 - 768))); 
 	}
 
-	.section-title__title {
-		font-size: calc(30px + (40 - 30) * ((100vw - 768px) / (1439 - 768)));
-	}
-
-	.section-title__description {
-		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
-	}
-
-	.section-title__buy {
-		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
-	}
-
 	.section-ticket {
 		padding-bottom: calc(50px + (68 - 50) * ((100vw - 768px) / (1439 - 768)));
-	}
-	.section-ticket__subtitle {
-		font-size: calc(20px + (30 - 20) * ((100vw - 768px) / (1439 - 768)));
-	}
-
-	.section-ticket__cost {
-		font-size: calc(25px + (30 - 25) * ((100vw - 768px) / (1439 - 768)));
 	}
 
 	.section-applycation {
@@ -401,16 +322,12 @@ ul {
 		padding-top: calc(30px + (92 - 30) * ((100vw - 768px) / (1439 - 768)));
 	}
 
-	.section-applycation-content-left__subtitle {
-		font-size: calc(20px + (30 - 20) * ((100vw - 768px) / (1439 - 768)));
-	}
-
 	.section-applycation-content-left__participation {
-		font-size: calc(12px + (20 - 12) * ((100vw - 768px) / (1439 - 768)));
+		width: calc(165px + (424 - 165) * ((100vw - 768px) / (1439 - 768)));
 	}
 
 	.section-applycation-content__applyfor {
-	margin-top: calc(58px + (135 - 58) * ((100vw - 768px) / (1439 - 768)));
+		margin-top: calc(58px + (135 - 58) * ((100vw - 768px) / (1439 - 768)));
 	}
 
 	.section-speaker-speakers__image {
@@ -418,7 +335,6 @@ ul {
 	}
 
 	.section-footer__content {
-	/*	font: 900 18px Roboto-Regular;*/
 		padding-bottom: calc(60px + (145 - 60) * ((100vw - 768px) / (1439 - 768)));    
 	} 
 }
@@ -445,13 +361,13 @@ ul {
 	}
 
 	#menu__toggle:checked ~ .menu__btn > span::after {
-	top: 0;
-	transform: rotate(90deg);
+		top: 0;
+		transform: rotate(90deg);
 	}
 
 	#menu__toggle:checked ~ .menu {
-	visibility: visible;
-	right: 0;
+		visibility: visible;
+		right: 0;
 	}
 
 	.menu__btn {
@@ -508,7 +424,6 @@ ul {
 		padding: 15px 24px;
 		margin-right: 0;
 		text-align: center;
-		font: 20px Roboto-Black;
 		text-decoration: none;
 		transition-duration: .25s;
 	}
@@ -524,18 +439,14 @@ ul {
 	}
 
 	.section-title__title {
-		font-size: 30px;
 		padding: 0 0 4px 14px;
 	}
 
 	.section-title__description {
-		font-size: 15px;
 		padding: 0 0 123px 14px;
-		line-height: 18px;
 	}
 
 	.section-title__buy {
-		font-size: 15px;
 		margin: 0 0 0 15px;
 		padding: 14px 105px 13px 105px;
 	}
@@ -545,14 +456,11 @@ ul {
 	}
 
 	.section-ticket__subtitle {
-		font-size: 20px;
 		max-width: 244px;
 		padding: 0 5px 6px 0;
-		line-height: 23px;
 	}
 
 	.section-ticket__cost {
-		font-size: 20px;
 		padding: 0 0 29px 0;
 	}
 
@@ -583,15 +491,13 @@ ul {
 	}
 
 	.section-applycation-content-left__subtitle {
-		font-size: 20px;
 		margin-bottom: 20px;
 		margin: 0;
 		padding: 0px 0 2px 0;
 	}
 
 	.section-applycation-content-left__participation {
-		font-size: 10px;
-		max-width: 249px;
+		width: 249px;
 		margin: auto;
 	}
 
@@ -613,11 +519,9 @@ ul {
 	}
 
 	.section-speaker__subtitle {
-		font-size: 20px;
 		width: 199px;
 		margin: 0 auto;
 		padding-bottom: 27px;
-		line-height: 23px;
 	}
 
 	#slider {
@@ -688,11 +592,7 @@ ul {
 		color: #405DBB;
  	}
 
-	.section-footer {
-	}
-
 	.section-footer__content {
-		font-size: 8px;
 		padding: 7px 0 54px 0;
 		margin: 0 auto;
 		width: 87%;
@@ -715,7 +615,6 @@ ul {
 	.section-footer-content-contacts__phone {
 		padding-right: 5px;
 		width: 71px;
-		line-height: 12px;
 	}
 
 	.section-footer-content-contacts-link__whatsapp {
