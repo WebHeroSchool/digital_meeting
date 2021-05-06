@@ -19,8 +19,8 @@ header {
 }
 
 .menu__item {
+	font: 18px Roboto-Black;
 	position: relative; 
-	font: 900 18px Roboto-Regular;
 	color: #FFF;
 	margin-right: 59px;
 	text-decoration: none;
@@ -56,15 +56,14 @@ header {
 }
 
 .section-title__title {
-	font: 900 40px Roboto-Regular;
-	word-spacing: 5px;
+	font: 40px Roboto-Black;
 	color: #FFF;
 	margin: 0;
 	padding: 31px 16px 11px 0;
 }
 
 .section-title__description {
-	font: 900 20px/23px Roboto-Regular;
+	font: 20px/23px Roboto-Black;
 	word-spacing: 1px;
 	color: #FFF;
 	margin: 0;
@@ -72,7 +71,7 @@ header {
 }
 
 .section-title__buy {
-	font: 900 20px Roboto-Regular;
+	font: 20px Roboto-Black;
 	color: #FFF;
 	margin: 0 14px 0 0;
 	padding: 16px 68px 16px 66px;
@@ -92,16 +91,15 @@ header {
 }
 
 .section-ticket__subtitle {
-	font: 30px Roboto-Medium;
-	font: 500 30px/35px Roboto-Regular;
-	max-width: 621px;
+	font: 30px/35px Roboto-Medium;
+	width: 621px;
 	color: #585858;
 	padding: 0 7px 38px 0;
 	margin: 0 auto;
 }
 
 .section-ticket__cost {
-	font: 900 30px Roboto-Regular;
+	font: 30px Roboto-Black;
 	color: #263B83;
 	padding: 0 13px 48px 0;
 	text-align: center;
@@ -109,7 +107,7 @@ header {
 }
 
 .section-ticket__buy {
-	font: 900 20px Roboto-Regular;
+	font: 20px Roboto-Black;
 	padding: 16px 66px 15px 66px;
 	text-decoration: none;
 	background: #FFDA45;
@@ -121,7 +119,7 @@ header {
 }
 
 .section-ticket__booking {
-	font: 900 20px Roboto-Regular;
+	font: 20px Roboto-Black;
 	color: #585858;
 	display: block;
 	margin-top: 33px;
@@ -143,13 +141,12 @@ header {
 }
 
 .section-applycation-content__left {
-	max-width: 430px;
 	height: 100%;
 	padding: 92px 0 0 0;
 }
 
 .section-applycation-content-left__subtitle {
-	font: 900 30px Roboto-Regular;
+	font: 30px Roboto-Black;
 	margin-bottom: 20px;
 	color: #FFF;
 	margin: 0;
@@ -157,9 +154,10 @@ header {
 }
 
 .section-applycation-content-left__participation {
-	font: 900 20px Roboto-Regular;
+	font: 20px Roboto-Black;
 	color: #FFF;
 	margin: 0;
+	width: 430px;
 }
 
 .section-applycation-content__image {
@@ -168,10 +166,10 @@ header {
 }
 
 .section-applycation-content__applyfor {
-	font: 900 20px Roboto-Regular;
+	font: 20px Roboto-Black;
 	margin: 135px 0 0 0;
 	height: 0;
-	padding: 16px 33px 40px 29px;
+	padding: .8em 1.65em 2em 1.45em;
 	text-decoration: none;
 	background: #FFDA45;
 	color: #000;
@@ -186,10 +184,10 @@ header {
 }
 
 .section-speaker__subtitle {
-	font: 500 30px/35px Roboto-Regular;
+	font: 30px/35px Roboto-Medium;
 	color: #585858;
 	text-align: center;
-	max-width: 452px;
+	width: 452px;
 	margin: 0 auto;
 	padding-bottom: 79px;
 }
@@ -213,7 +211,7 @@ ul {
 }
 
 .section-footer__content {
-	font: 900 18px Roboto-Regular;
+	font: 18px Roboto-Black;
 	color: #E1E6E9;
 	justify-content: space-between;
 	display: flex;
@@ -239,10 +237,10 @@ ul {
 }
 
 .section-footer-content-contacts__phone {
+	line-height: 30px;
 	padding: 0 19px 0 0;
 	margin: 0;
 	width: 155px;
-	line-height: 30px;
 }
 
 .section-footer-content-contacts-link__whatsapp {
@@ -260,6 +258,98 @@ ul {
 	width: 52px;
 }
 
+@media (min-width: 1920px) {
+	.menu__item {
+		font-size: 30px;
+ 	}
+
+	.section-title {
+		font-size: 74px;
+		margin-bottom: 530px; 
+	}
+
+	.section-title__description {
+		font-size: 36px;
+		line-height: 45px;
+	}
+
+	.section-title__buy {
+		font-size: 32px;
+	}
+
+	.section-ticket__subtitle {
+		font-size: 40px;
+		line-height: 53px;
+		width: 814px;
+	}
+
+	.section-ticket__cost {
+		font-size: 40px;
+	}
+
+	.section-ticket__buy {
+		font-size: 30px;
+	}
+
+	.section-ticket__booking {
+		font-size: 30px;
+	}
+
+	.section-applycation-content__left {
+		padding-top: 115px;
+	}
+
+	.section-applycation-content-left__subtitle {
+		font-size: 35px;
+	}
+
+	.section-applycation-content-left__participation {
+		font-size: 24px;
+		width: 506px;
+	}
+
+	.section-applycation-content__applyfor {
+		font-size: 24px;
+		margin-top: 165px;
+	}
+
+	.section-speaker__subtitle {
+		font-size: 40px;
+		line-height: 40px;
+		width: 598px;
+	}
+
+	.section-speaker-speakers__image {
+		width: 378px;
+	}
+
+	.section-footer__content {
+		font-size: 25px;
+	}
+
+	.section-footer-content-location__icon {
+		height: 35px;
+	}
+
+	.section-footer-content-location__locality {
+		margin-top: 22px;
+	}
+
+	.section-footer-content-contacts__phone {
+		line-height: 38px;
+		width: 213px;
+	}
+
+	.section-footer-content-contacts-link__whatsapp {
+		width: 62px;
+	}
+
+	.section-footer-content-contacts-link__telegram {
+		width: 62px;
+	}
+
+}
+
 @media (max-width: 1439px) {
 	header {
 		margin-top: calc(20px + (50 - 20) * ((100vw - 768px) / (1439 - 768)));
@@ -272,10 +362,7 @@ ul {
  	}
 
 	.section-title {
-		margin-bottom: calc(125px + (436 - 125) * ((100vw - 768px) / (1439 - 768))); 
-	}
-
-	.section-title__title {
+		margin-bottom: calc(125px + (436 - 125) * ((100vw - 768px) / (1439 - 768)));
 		font-size: calc(30px + (40 - 30) * ((100vw - 768px) / (1439 - 768)));
 	}
 
@@ -290,6 +377,7 @@ ul {
 	.section-ticket {
 		padding-bottom: calc(50px + (68 - 50) * ((100vw - 768px) / (1439 - 768)));
 	}
+
 	.section-ticket__subtitle {
 		font-size: calc(20px + (30 - 20) * ((100vw - 768px) / (1439 - 768)));
 	}
@@ -311,11 +399,13 @@ ul {
 	}
 
 	.section-applycation-content-left__participation {
-		font-size: calc(12px + (20 - 12) * ((100vw - 768px) / (1439 - 768)));
+		font-size: calc(11px + (20 - 11) * ((100vw - 768px) / (1439 - 768)));
+		width: calc(165px + (424 - 165) * ((100vw - 768px) / (1439 - 768)));
 	}
 
 	.section-applycation-content__applyfor {
-	margin-top: calc(58px + (135 - 58) * ((100vw - 768px) / (1439 - 768)));
+		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
+		margin-top: calc(58px + (135 - 58) * ((100vw - 768px) / (1439 - 768)));
 	}
 
 	.section-speaker-speakers__image {
@@ -323,9 +413,9 @@ ul {
 	}
 
 	.section-footer__content {
-		font: 18px Roboto-Black;
 		padding-bottom: calc(60px + (145 - 60) * ((100vw - 768px) / (1439 - 768)));    
 	} 
+}
 
 @media (max-width: 767px) {
 	body {
@@ -349,13 +439,13 @@ ul {
 	}
 
 	#menu__toggle:checked ~ .menu__btn > span::after {
-	top: 0;
-	transform: rotate(90deg);
+		top: 0;
+		transform: rotate(90deg);
 	}
 
 	#menu__toggle:checked ~ .menu {
-	visibility: visible;
-	right: 0;
+		visibility: visible;
+		right: 0;
 	}
 
 	.menu__btn {
@@ -408,11 +498,11 @@ ul {
 	}
 
 	.menu__item {
+		font-size: 20px;
 		display: block;
 		padding: 15px 24px;
 		margin-right: 0;
 		text-align: center;
-		font: 20px Roboto-Black;
 		text-decoration: none;
 		transition-duration: .25s;
 	}
@@ -422,7 +512,7 @@ ul {
 	}
 
 	.section-title {
-		margin-bottom: 54px;
+		margin-bottom: 52px;
 		text-align: center;
 		width: 95%;
 	}
@@ -434,8 +524,8 @@ ul {
 
 	.section-title__description {
 		font-size: 15px;
-		padding: 0 0 123px 14px;
 		line-height: 18px;
+		padding: 0 0 116px 14px;
 	}
 
 	.section-title__buy {
@@ -450,9 +540,9 @@ ul {
 
 	.section-ticket__subtitle {
 		font-size: 20px;
-		max-width: 245px;
-		padding: 0 5px 6px 0;
 		line-height: 23px;
+		max-width: 244px;
+		padding: 0 5px 6px 0;
 	}
 
 	.section-ticket__cost {
@@ -495,7 +585,7 @@ ul {
 
 	.section-applycation-content-left__participation {
 		font-size: 10px;
-		max-width: 250px;
+		width: 249px;
 		margin: auto;
 	}
 
@@ -507,8 +597,9 @@ ul {
 	}
 
 	.section-applycation-content__applyfor {
+		font-size: 20px;
 		margin: 135px 0 0 0;
-		padding: 11px 61px 10px 58px;
+		padding: 11px 64px 10px 60px;
 	}
 
 	.section-speaker {
@@ -518,10 +609,10 @@ ul {
 
 	.section-speaker__subtitle {
 		font-size: 20px;
-		max-width: 452px;
+		line-height: 23px;
+		width: 199px;
 		margin: 0 auto;
 		padding-bottom: 27px;
-		line-height: 23px;
 	}
 
 	#slider {
@@ -592,9 +683,6 @@ ul {
 		color: #405DBB;
  	}
 
-	.section-footer {
-	}
-
 	.section-footer__content {
 		font-size: 8px;
 		padding: 7px 0 54px 0;
@@ -617,9 +705,9 @@ ul {
 	}
 
 	.section-footer-content-contacts__phone {
-		padding: 0;
-		width: 76px;
 		line-height: 12px;
+		padding-right: 5px;
+		width: 71px;
 	}
 
 	.section-footer-content-contacts-link__whatsapp {
