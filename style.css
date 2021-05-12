@@ -243,25 +243,25 @@ ul {
 	width: 155px;
 }
 
-.section-footer-content-contacts-link__whatsapp {
-	background: url('img/whatsapp.svg');
+.section-footer-content-contacts-link__whatsapp , .section-footer-content-contacts-link__telegram {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 52px;
+}
+
+.section-footer-content-contacts-link__whatsapp {
+	background: url('img/whatsapp.svg');
 	margin-right: 17px;
 }
 
 .section-footer-content-contacts-link__telegram {
 	background: url('img/telegram.svg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 52px;
 }
 
 @media (min-width: 1920px) {
-	.menu__item {
+ 	.menu__item , .section-ticket__buy , .section-ticket__booking {
 		font-size: 30px;
- 	}
+	}
 
 	.section-title {
 		font-size: 74px;
@@ -278,21 +278,12 @@ ul {
 	}
 
 	.section-ticket__subtitle {
-		font-size: 40px;
 		line-height: 53px;
 		width: 814px;
 	}
 
-	.section-ticket__cost {
+	.section-ticket__subtitle , .section-ticket__cost , .section-speaker__subtitle {
 		font-size: 40px;
-	}
-
-	.section-ticket__buy {
-		font-size: 30px;
-	}
-
-	.section-ticket__booking {
-		font-size: 30px;
 	}
 
 	.section-applycation-content__left {
@@ -304,17 +295,18 @@ ul {
 	}
 
 	.section-applycation-content-left__participation {
-		font-size: 24px;
 		width: 506px;
 	}
 
 	.section-applycation-content__applyfor {
-		font-size: 24px;
 		margin-top: 165px;
 	}
 
+	.section-applycation-content-left__participation , .section-applycation-content__applyfor {
+		font-size: 24px;
+	}
+
 	.section-speaker__subtitle {
-		font-size: 40px;
 		line-height: 40px;
 		width: 598px;
 	}
@@ -337,17 +329,12 @@ ul {
 
 	.section-footer-content-contacts__phone {
 		line-height: 38px;
-		width: 213px;
+		width: 216px;
 	}
 
-	.section-footer-content-contacts-link__whatsapp {
+	.section-footer-content-contacts-link__whatsapp , .section-footer-content-contacts-link__telegram {
 		width: 62px;
 	}
-
-	.section-footer-content-contacts-link__telegram {
-		width: 62px;
-	}
-
 }
 
 @media (max-width: 1439px) {
@@ -366,11 +353,7 @@ ul {
 		font-size: calc(30px + (40 - 30) * ((100vw - 768px) / (1439 - 768)));
 	}
 
-	.section-title__description {
-		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
-	}
-
-	.section-title__buy {
+	.section-title__description , .section-title__buy , .section-applycation-content__applyfor {
 		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
 	}
 
@@ -378,7 +361,7 @@ ul {
 		padding-bottom: calc(50px + (68 - 50) * ((100vw - 768px) / (1439 - 768)));
 	}
 
-	.section-ticket__subtitle {
+	.section-ticket__subtitle , .section-applycation-content-left__subtitle {
 		font-size: calc(20px + (30 - 20) * ((100vw - 768px) / (1439 - 768)));
 	}
 
@@ -394,17 +377,12 @@ ul {
 		padding-top: calc(30px + (92 - 30) * ((100vw - 768px) / (1439 - 768)));
 	}
 
-	.section-applycation-content-left__subtitle {
-		font-size: calc(20px + (30 - 20) * ((100vw - 768px) / (1439 - 768)));
-	}
-
 	.section-applycation-content-left__participation {
 		font-size: calc(11px + (20 - 11) * ((100vw - 768px) / (1439 - 768)));
 		width: calc(165px + (424 - 165) * ((100vw - 768px) / (1439 - 768)));
 	}
 
 	.section-applycation-content__applyfor {
-		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
 		margin-top: calc(58px + (135 - 58) * ((100vw - 768px) / (1439 - 768)));
 	}
 
@@ -497,8 +475,11 @@ ul {
 		transition-duration: .25s;
 	}
 
-	.menu__item {
+	.menu__item , .section-ticket__subtitle , .section-ticket__cost , .section-applycation-content-left__subtitle , .section-applycation-content__applyfor , .section-speaker__subtitle {
 		font-size: 20px;
+	}
+
+	.menu__item {
 		display: block;
 		padding: 15px 24px;
 		margin-right: 0;
@@ -539,14 +520,12 @@ ul {
 	}
 
 	.section-ticket__subtitle {
-		font-size: 20px;
 		line-height: 23px;
 		max-width: 244px;
 		padding: 0 5px 6px 0;
 	}
 
 	.section-ticket__cost {
-		font-size: 20px;
 		padding: 0 0 29px 0;
 	}
 
@@ -577,7 +556,6 @@ ul {
 	}
 
 	.section-applycation-content-left__subtitle {
-		font-size: 20px;
 		margin-bottom: 20px;
 		margin: 0;
 		padding: 0px 0 2px 0;
@@ -597,7 +575,6 @@ ul {
 	}
 
 	.section-applycation-content__applyfor {
-		font-size: 20px;
 		margin: 135px 0 0 0;
 		padding: 11px 64px 10px 60px;
 	}
@@ -608,7 +585,6 @@ ul {
 	}
 
 	.section-speaker__subtitle {
-		font-size: 20px;
 		line-height: 23px;
 		width: 199px;
 		margin: 0 auto;
@@ -710,15 +686,16 @@ ul {
 		width: 71px;
 	}
 
-	.section-footer-content-contacts-link__whatsapp {
-		margin: 1px 5px 0 0;
+	.section-footer-content-contacts-link__whatsapp , .section-footer-content-contacts-link__telegram {
 		width: 20px;
 		background-size: 100%;
 	}
 
+	.section-footer-content-contacts-link__whatsapp {
+		margin: 1px 5px 0 0;
+	}
+
 	.section-footer-content-contacts-link__telegram {
-		width: 20px;
 		margin: 1px 9px 0 0;
-		background-size: 100%;
 	}
 }
