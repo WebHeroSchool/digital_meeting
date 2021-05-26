@@ -176,6 +176,7 @@ header {
 	border-radius: 2px;
 	text-align: center;
 	transition: 1s linear;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.25);
 }
 
 .section-speaker {
@@ -243,19 +244,21 @@ ul {
 	width: 155px;
 }
 
-.section-footer-content-contacts-link__whatsapp , .section-footer-content-contacts-link__telegram {
-	background-repeat: no-repeat;
-	background-size: 100%;
+.section-footer-content-contacts-link__whatsapp, .section-footer-content-contacts-link__telegram {
 	width: 52px;
 }
 
 .section-footer-content-contacts-link__whatsapp {
 	background: url('img/whatsapp.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
 	margin-right: 17px;
 }
 
 .section-footer-content-contacts-link__telegram {
 	background: url('img/telegram.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 @media (min-width: 1920px) {
@@ -349,7 +352,7 @@ ul {
  	}
 
 	.section-title {
-		margin-bottom: calc(125px + (436 - 125) * ((100vw - 768px) / (1439 - 768)));
+		margin-bottom: calc(107px + (411 - 107) * ((100vw - 768px) / (1439 - 768)));
 		font-size: calc(30px + (40 - 30) * ((100vw - 768px) / (1439 - 768)));
 	}
 
@@ -403,8 +406,12 @@ ul {
 	}	
 
 	header {
-	margin: 30px auto 12px auto;
-	width: 83%;
+		padding: 30px 0 12px 0;
+		margin: 0;
+		width: 83%;
+		position: fixed;
+		width: 100%;
+		background-color: #103093;
 	}
 
 	#menu__toggle:checked ~ .menu__btn > span {
@@ -470,7 +477,7 @@ ul {
 		margin: 0;
 		padding: 100px 0 0 0;
 		list-style: none;
-		background-color: #405DBB;
+		background-color: #103093;
 		box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 		transition-duration: .25s;
 	}
@@ -492,26 +499,30 @@ ul {
 		background-color: #CFD8DC;
 	}
 
+	.section {
+		padding-top: 62px;
+	}
+
 	.section-title {
 		margin-bottom: 52px;
 		text-align: center;
-		width: 95%;
+		width: 100%;
 	}
 
 	.section-title__title {
 		font-size: 30px;
-		padding: 0 0 4px 14px;
+		padding: 0 0 4px 0;
 	}
 
 	.section-title__description {
 		font-size: 15px;
 		line-height: 18px;
-		padding: 0 0 116px 14px;
+		padding: 0 0 116px 0;
 	}
 
 	.section-title__buy {
 		font-size: 15px;
-		margin: 0 0 0 15px;
+		margin: 0;
 		padding: 14px 105px 13px 105px;
 	}
 
@@ -686,16 +697,19 @@ ul {
 		width: 71px;
 	}
 
-	.section-footer-content-contacts-link__whatsapp , .section-footer-content-contacts-link__telegram {
+	.section-footer-content-contacts-link__whatsapp, .section-footer-content-contacts-link__telegram {
 		width: 20px;
-		background-size: 100%;
 	}
 
 	.section-footer-content-contacts-link__whatsapp {
 		margin: 1px 5px 0 0;
+		background-size: 100%;
+		background-repeat: no-repeat;
 	}
 
 	.section-footer-content-contacts-link__telegram {
 		margin: 1px 9px 0 0;
+		background-size: 100%;
+		background-repeat: no-repeat;
 	}
 }
