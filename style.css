@@ -400,9 +400,8 @@ ul {
 
 @media (max-width: 767px) {
 	body {
-		background: url('img/titleimgmob.jpg');
-		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: calc(117% + (100 - 117) * ((100vw - 401px) / (767 - 401)));
+		background-position-y: calc(61px + (-107 - 61) * ((100vw - 401px) / (767 - 401)));
 	}	
 
 	header {
@@ -711,5 +710,13 @@ ul {
 		margin: 1px 9px 0 0;
 		background-size: 100%;
 		background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 400px) {
+	body {
+		background: url('img/titleimgmob.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
 	}
 }
