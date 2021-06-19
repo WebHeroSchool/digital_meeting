@@ -3,7 +3,7 @@ body {
 	background-repeat: no-repeat;
 	margin: 0;
 	background-size: 100%;
-}	
+}
 
 header {
 	margin: 50px auto 98px auto;
@@ -411,6 +411,7 @@ ul {
 		position: fixed;
 		width: 100%;
 		background-color: #103093;
+		z-index: 2;
 	}
 
 	#menu__toggle:checked ~ .menu__btn > span {
@@ -500,6 +501,7 @@ ul {
 
 	.section {
 		padding-top: 62px;
+		z-index: 1;
 	}
 
 	.section-title {
