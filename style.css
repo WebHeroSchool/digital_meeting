@@ -3,7 +3,7 @@ body {
 	background-repeat: no-repeat;
 	margin: 0;
 	background-size: 100%;
-}	
+}
 
 header {
 	margin: 50px auto 98px auto;
@@ -20,8 +20,8 @@ header {
 
 .menu__item {
 	font: 18px Roboto-Black;
-	position: relative; 
-	color: #FFF;
+	position: relative;
+	color: #fff;
 	margin-right: 59px;
 	text-decoration: none;
 }
@@ -33,12 +33,12 @@ header {
 	position: absolute;
 	display: block;
 	content: "";
-	left: 0; 
+	left: 0;
 	width: 100%;
 	height: 3px;
-	background: #FFF;
+	background: #fff;
 	opacity: 0;
-	transition: opacity .5s;
+	transition: opacity 0.5s;
 }
 
 .menu__item:hover:after {
@@ -57,7 +57,7 @@ header {
 
 .section-title__title {
 	font: 40px Roboto-Black;
-	color: #FFF;
+	color: #fff;
 	margin: 0;
 	padding: 31px 16px 11px 0;
 }
@@ -65,27 +65,27 @@ header {
 .section-title__description {
 	font: 20px/23px Roboto-Black;
 	word-spacing: 1px;
-	color: #FFF;
+	color: #fff;
 	margin: 0;
 	padding: 0 15px 54px 0;
 }
 
 .section-title__buy {
 	font: 20px Roboto-Black;
-	color: #FFF;
+	color: #fff;
 	margin: 0 14px 0 0;
-	padding: 16px 68px 16px 66px;
+	padding: 16px 68px 17px 65px;
 	text-decoration: none;
-	background: #E0036F;
+	background: #e0036f;
 	border-radius: 2px;
 	text-align: center;
-	transition: 1s linear; 
+	transition: 1s linear;
 }
 
 .section-ticket {
 	text-align: center;
 	margin: 0;
-	background: #E3EAFE;
+	background: #e3eafe;
 	padding: 54px 0 68px 0;
 	width: 100%;
 }
@@ -100,7 +100,7 @@ header {
 
 .section-ticket__cost {
 	font: 30px Roboto-Black;
-	color: #263B83;
+	color: #263b83;
 	padding: 0 13px 48px 0;
 	text-align: center;
 	margin: 0;
@@ -108,9 +108,9 @@ header {
 
 .section-ticket__buy {
 	font: 20px Roboto-Black;
-	padding: 16px 66px 15px 66px;
+	padding: 14px 64px 15px 65px;
 	text-decoration: none;
-	background: #FFDA45;
+	background: #ffda45;
 	color: #000;
 	border-radius: 5px;
 	text-align: center;
@@ -124,11 +124,10 @@ header {
 	display: block;
 	margin-top: 33px;
 	text-decoration: none;
-	position: relative;
 }
 
 .section-applycation {
-	background: #405DBB;
+	background: #405dbb;
 	display: flex;
 	margin-bottom: 91px;
 }
@@ -148,14 +147,14 @@ header {
 .section-applycation-content-left__subtitle {
 	font: 30px Roboto-Black;
 	margin-bottom: 20px;
-	color: #FFF;
+	color: #fff;
 	margin: 0;
 	padding: 25px 0 18px 0;
 }
 
 .section-applycation-content-left__participation {
 	font: 20px Roboto-Black;
-	color: #FFF;
+	color: #fff;
 	margin: 0;
 	width: 430px;
 }
@@ -167,15 +166,16 @@ header {
 
 .section-applycation-content__applyfor {
 	font: 20px Roboto-Black;
-	margin: 135px 0 0 0;
+	margin: 136px 0 0 0;
 	height: 0;
 	padding: .8em 1.65em 2em 1.45em;
 	text-decoration: none;
-	background: #FFDA45;
+	background: #ffda45;
 	color: #000;
 	border-radius: 2px;
 	text-align: center;
 	transition: 1s linear;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.25);
 }
 
 .section-speaker {
@@ -203,16 +203,16 @@ header {
 
 ul {
 	display: flex;
-  font-size: 0;
+	font-size: 0;
 }
 
 .section-footer {
-	background: #0E1E71;
+	background: #0e1e71;
 }
 
 .section-footer__content {
 	font: 18px Roboto-Black;
-	color: #E1E6E9;
+	color: #e1e6e9;
 	justify-content: space-between;
 	display: flex;
 	padding: 31px 0 145px 0;
@@ -243,11 +243,14 @@ ul {
 	width: 155px;
 }
 
+.section-footer-content-contacts-link__whatsapp, .section-footer-content-contacts-link__telegram {
+	width: 52px;
+}
+
 .section-footer-content-contacts-link__whatsapp {
 	background: url('img/whatsapp.svg');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 52px;
 	margin-right: 17px;
 }
 
@@ -255,13 +258,12 @@ ul {
 	background: url('img/telegram.svg');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 52px;
 }
 
 @media (min-width: 1920px) {
-	.menu__item {
+	.menu__item , .section-ticket__buy , .section-ticket__booking {
 		font-size: 30px;
- 	}
+	}
 
 	.section-title {
 		font-size: 74px;
@@ -278,21 +280,12 @@ ul {
 	}
 
 	.section-ticket__subtitle {
-		font-size: 40px;
 		line-height: 53px;
 		width: 814px;
 	}
 
-	.section-ticket__cost {
+	.section-ticket__subtitle , .section-ticket__cost , .section-speaker__subtitle {
 		font-size: 40px;
-	}
-
-	.section-ticket__buy {
-		font-size: 30px;
-	}
-
-	.section-ticket__booking {
-		font-size: 30px;
 	}
 
 	.section-applycation-content__left {
@@ -304,17 +297,18 @@ ul {
 	}
 
 	.section-applycation-content-left__participation {
-		font-size: 24px;
 		width: 506px;
 	}
 
 	.section-applycation-content__applyfor {
-		font-size: 24px;
 		margin-top: 165px;
 	}
 
+	.section-applycation-content-left__participation , .section-applycation-content__applyfor {
+		font-size: 24px;
+	}
+
 	.section-speaker__subtitle {
-		font-size: 40px;
 		line-height: 40px;
 		width: 598px;
 	}
@@ -337,17 +331,12 @@ ul {
 
 	.section-footer-content-contacts__phone {
 		line-height: 38px;
-		width: 213px;
+		width: 216px;
 	}
 
-	.section-footer-content-contacts-link__whatsapp {
+	.section-footer-content-contacts-link__whatsapp , .section-footer-content-contacts-link__telegram {
 		width: 62px;
 	}
-
-	.section-footer-content-contacts-link__telegram {
-		width: 62px;
-	}
-
 }
 
 @media (max-width: 1439px) {
@@ -359,18 +348,14 @@ ul {
 	.menu__item {
 		margin-right: calc(20px + (60 - 20) * ((100vw - 768px) / (1439 - 768)));
 		font-size: calc(12px + (18 - 12) * ((100vw - 768px) / (1439 - 768)));
- 	}
+	}
 
 	.section-title {
-		margin-bottom: calc(125px + (436 - 125) * ((100vw - 768px) / (1439 - 768)));
+		margin-bottom: calc(107px + (409 - 107) * ((100vw - 768px) / (1439 - 768)));
 		font-size: calc(30px + (40 - 30) * ((100vw - 768px) / (1439 - 768)));
 	}
 
-	.section-title__description {
-		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
-	}
-
-	.section-title__buy {
+	.section-title__description , .section-title__buy , .section-applycation-content__applyfor {
 		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
 	}
 
@@ -378,7 +363,7 @@ ul {
 		padding-bottom: calc(50px + (68 - 50) * ((100vw - 768px) / (1439 - 768)));
 	}
 
-	.section-ticket__subtitle {
+	.section-ticket__subtitle , .section-applycation-content-left__subtitle {
 		font-size: calc(20px + (30 - 20) * ((100vw - 768px) / (1439 - 768)));
 	}
 
@@ -394,17 +379,12 @@ ul {
 		padding-top: calc(30px + (92 - 30) * ((100vw - 768px) / (1439 - 768)));
 	}
 
-	.section-applycation-content-left__subtitle {
-		font-size: calc(20px + (30 - 20) * ((100vw - 768px) / (1439 - 768)));
-	}
-
 	.section-applycation-content-left__participation {
 		font-size: calc(11px + (20 - 11) * ((100vw - 768px) / (1439 - 768)));
 		width: calc(165px + (424 - 165) * ((100vw - 768px) / (1439 - 768)));
 	}
 
 	.section-applycation-content__applyfor {
-		font-size: calc(15px + (20 - 15) * ((100vw - 768px) / (1439 - 768)));
 		margin-top: calc(58px + (135 - 58) * ((100vw - 768px) / (1439 - 768)));
 	}
 
@@ -413,20 +393,24 @@ ul {
 	}
 
 	.section-footer__content {
-		padding-bottom: calc(60px + (145 - 60) * ((100vw - 768px) / (1439 - 768)));    
-	} 
+		padding-bottom: calc(60px + (145 - 60) * ((100vw - 768px) / (1439 - 768)));
+	}
 }
 
 @media (max-width: 767px) {
 	body {
-		background: url('img/titleimgmob.jpg');
-		background-repeat: no-repeat;
-		background-size: 100%;
-	}	
+		background-size: calc(117% + (100 - 117) * ((100vw - 401px) / (767 - 401)));
+		background-position-y: calc(61px + (-107 - 61) * ((100vw - 401px) / (767 - 401)));
+	}
 
 	header {
-	margin: 30px auto 12px auto;
-	width: 83%;
+		padding: 30px 0 12px 0;
+		margin: 0;
+		width: 83%;
+		position: fixed;
+		width: 100%;
+		background-color: #103093;
+		z-index: 2;
 	}
 
 	#menu__toggle:checked ~ .menu__btn > span {
@@ -492,13 +476,16 @@ ul {
 		margin: 0;
 		padding: 100px 0 0 0;
 		list-style: none;
-		background-color: #405DBB;
-		box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+		background-color: #103093;
+		box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
 		transition-duration: .25s;
 	}
 
-	.menu__item {
+	.menu__item , .section-ticket__subtitle , .section-ticket__cost , .section-applycation-content-left__subtitle , .section-applycation-content__applyfor , .section-speaker__subtitle {
 		font-size: 20px;
+	}
+
+	.menu__item {
 		display: block;
 		padding: 15px 24px;
 		margin-right: 0;
@@ -511,26 +498,31 @@ ul {
 		background-color: #CFD8DC;
 	}
 
+	.section {
+		padding-top: 62px;
+		z-index: 1;
+	}
+
 	.section-title {
 		margin-bottom: 52px;
 		text-align: center;
-		width: 95%;
+		width: 100%;
 	}
 
 	.section-title__title {
 		font-size: 30px;
-		padding: 0 0 4px 14px;
+		padding: 0 0 4px 0;
 	}
 
 	.section-title__description {
 		font-size: 15px;
 		line-height: 18px;
-		padding: 0 0 116px 14px;
+		padding: 0 0 116px 0;
 	}
 
 	.section-title__buy {
 		font-size: 15px;
-		margin: 0 0 0 15px;
+		margin: 0;
 		padding: 14px 105px 13px 105px;
 	}
 
@@ -539,14 +531,12 @@ ul {
 	}
 
 	.section-ticket__subtitle {
-		font-size: 20px;
 		line-height: 23px;
 		max-width: 244px;
 		padding: 0 5px 6px 0;
 	}
 
 	.section-ticket__cost {
-		font-size: 20px;
 		padding: 0 0 29px 0;
 	}
 
@@ -556,7 +546,6 @@ ul {
 
 	.section-ticket__booking {
 		margin-top: 38px;
-		position: relative;
 	}
 
 	.section-applycation {
@@ -568,7 +557,7 @@ ul {
 		margin: auto;
 		text-align: center;
 		padding-top: 37px;
-		margin-bottom: 48px;
+		margin-bottom: 49px;
 	}
 
 	.section-applycation-content__left {
@@ -577,7 +566,6 @@ ul {
 	}
 
 	.section-applycation-content-left__subtitle {
-		font-size: 20px;
 		margin-bottom: 20px;
 		margin: 0;
 		padding: 0px 0 2px 0;
@@ -593,13 +581,12 @@ ul {
 		display: block;
 		width: 260px;
 		height: 222px;
-		margin: 0 auto 39px auto;
+		margin: 0 auto 38px auto;
 	}
 
 	.section-applycation-content__applyfor {
-		font-size: 20px;
 		margin: 135px 0 0 0;
-		padding: 11px 64px 10px 60px;
+		padding: 11px 60px 10px 60px;
 	}
 
 	.section-speaker {
@@ -608,7 +595,6 @@ ul {
 	}
 
 	.section-speaker__subtitle {
-		font-size: 20px;
 		line-height: 23px;
 		width: 199px;
 		margin: 0 auto;
@@ -671,7 +657,7 @@ ul {
 	}
 
 	li:hover {
-		background: #405DBB;
+		background: #405dbb;
 	}
 
 	a {
@@ -680,8 +666,8 @@ ul {
 	}
 
 	a:hover {
-		color: #405DBB;
- 	}
+		color: #405dbb;
+	}
 
 	.section-footer__content {
 		font-size: 8px;
@@ -710,15 +696,27 @@ ul {
 		width: 71px;
 	}
 
+	.section-footer-content-contacts-link__whatsapp, .section-footer-content-contacts-link__telegram {
+		width: 20px;
+	}
+
 	.section-footer-content-contacts-link__whatsapp {
 		margin: 1px 5px 0 0;
-		width: 20px;
 		background-size: 100%;
+		background-repeat: no-repeat;
 	}
 
 	.section-footer-content-contacts-link__telegram {
-		width: 20px;
 		margin: 1px 9px 0 0;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 400px) {
+	body {
+		background: url('img/titleimgmob.jpg');
+		background-repeat: no-repeat;
 		background-size: 100%;
 	}
 }
