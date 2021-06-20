@@ -477,7 +477,7 @@ ul {
 		padding: 100px 0 0 0;
 		list-style: none;
 		background-color: #103093;
-		box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+		box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 		transition-duration: .25s;
 	}
 
@@ -657,7 +657,7 @@ ul {
 	}
 
 	li:hover {
-		background: #405DBB;
+		background: #405dbb;
 	}
 
 	a {
@@ -666,7 +666,7 @@ ul {
 	}
 
 	a:hover {
-		color: #405DBB;
+		color: #405dbb;
 	}
 
 	.section-footer__content {
