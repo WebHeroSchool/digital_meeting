@@ -63,7 +63,7 @@ header {
 }
 
 .section-title__description {
-	font: 17px/23px Roboto-Black;
+	font: 20px/23px Roboto-Black;
 	word-spacing: 1px;
 	color: #fff;
 	margin: 0;
@@ -74,7 +74,7 @@ header {
 	font: 20px Roboto-Black;
 	color: #fff;
 	margin: 0 14px 0 0;
-	padding: 16px 68px 16px 60px;
+	padding: 16px 68px 17px 65px;
 	text-decoration: none;
 	background: #e0036f;
 	border-radius: 2px;
@@ -86,7 +86,7 @@ header {
 	text-align: center;
 	margin: 0;
 	background: #e3eafe;
-	padding: 54px 0 68px 0;
+	padding: 54px 0 71px 0;
 	width: 100%;
 }
 
@@ -101,7 +101,7 @@ header {
 .section-ticket__cost {
 	font: 30px Roboto-Black;
 	color: #263b83;
-	padding: 0 13px 45px 0;
+	padding: 0 13px 48px 0;
 	text-align: center;
 	margin: 0;
 }
@@ -166,7 +166,7 @@ header {
 
 .section-applycation-content__applyfor {
 	font: 20px Roboto-Black;
-	margin: 135px 0 0 0;
+	margin: 136px 0 0 0;
 	height: 0;
 	padding: .8em 1.65em 2em 1.45em;
 	text-decoration: none;
